@@ -77,7 +77,7 @@ def threader():
         worker = q.get()
         portscanner(worker)
         q.task_done()
-q = queue.Queue()
+q = Queue()
 
 def main():
     for x in range(s_thread):

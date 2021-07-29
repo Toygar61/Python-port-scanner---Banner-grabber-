@@ -1,10 +1,8 @@
-import queue
 import socket
 import threading
 import datetime
 from queue import Queue
 from time import sleep
-from types import prepare_class
 
 target = input("Hedef Server: ")
 lock = threading.Lock()
